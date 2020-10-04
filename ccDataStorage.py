@@ -18,7 +18,7 @@ s3.Object('cs1660project-jpm160', 'test').Acl().put(ACL='public-read')
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-dyndb = boto3.resource('dynamodb', region_name='us-west-2', aws_access_key_id='AKIATMKL4DXCA5EKRW4A', aws_secret_access_key='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')
+dyndb = boto3.resource('dynamodb', region_name='us-west-2', aws_access_key_id='~~~~~~~~~~~~~', aws_secret_access_key='~~~~~~~~~~~~~')
 
 try:
 	table = dyndb.create_table(
